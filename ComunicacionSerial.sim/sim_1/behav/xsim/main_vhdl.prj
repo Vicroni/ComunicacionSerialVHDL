@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ComunicacionSerial.srcs/sources_1/new/Display.vhd" \
+"../../../../ComunicacionSerial.srcs/sources_1/new/Envio.vhd" \
+"../../../../ComunicacionSerial.srcs/sources_1/new/Memoria.vhd" \
+"../../../../ComunicacionSerial.srcs/sources_1/new/Recepcion.vhd" \
+"../../../../ComunicacionSerial.srcs/sources_1/new/main.vhd" \
+
+# Do not sort compile order
+nosort
